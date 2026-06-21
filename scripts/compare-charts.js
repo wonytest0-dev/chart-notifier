@@ -30,7 +30,7 @@ async function sendNotification(title) {
       },
       body: JSON.stringify({
         app_id: process.env.ONESIGNAL_APP_ID,
-        included_segments: ["All"],
+        included_segments: ["Total Subscriptions"],
         headings: { en: "📈 Chart Updated" },
         contents: { en: `${title} Updated` },
         url: "https://jimination.com/charts/charts"
