@@ -21,6 +21,10 @@ jobs:
         with:
           node-version: 20
 
+      # Step baru untuk mengatasi error "Cannot find module 'dotenv'"
+      - name: Install Dependencies
+        run: npm install dotenv
+
       - name: Run Compare
         run: node scripts/compare-charts.js
         env:
@@ -40,3 +44,4 @@ jobs:
             git commit -m "update chart hashes"
             git push
           fi
+
