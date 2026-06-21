@@ -3,6 +3,9 @@ name: Chart Notifier
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -10,6 +13,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -29,6 +34,9 @@ jobs:
 
           git add hashes.json
 
-          git commit -m "update chart hashes" || echo "No changes"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "update chart hashes"
+            git push
+          fi
