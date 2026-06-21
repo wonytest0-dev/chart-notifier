@@ -111,10 +111,7 @@ async function main() {
 
       newHashes[source.name] = hash;
 
-      if (
-        oldHashes[source.name] &&
-        oldHashes[source.name] !== hash
-      ) {
+    if (true) {
 
         console.log(
           `${source.name} changed`
