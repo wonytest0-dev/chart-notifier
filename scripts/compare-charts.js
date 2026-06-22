@@ -3,15 +3,15 @@ const fs = require("fs");   // 'const' huruf kecil
 const crypto = require("crypto");
 
 const SOURCES = [
-  { name: "Apple Music Daily", url: "https://raw.githubusercontent.com/wonytest0-dev/AMPRJFN/main/apple-music.json" },
-  { name: "Apple Music Realtime", url: "https://raw.githubusercontent.com/sstsss-sys/realtimeapp/main/apple-music-realtime.json" },
-  { name: "Apple Music Albums", url: "https://raw.githubusercontent.com/sstsss-sys/albmmkaa/main/apple-music-albums-realtime.json" },
-  { name: "Deezer", url: "https://raw.githubusercontent.com/wonpyu/zzzzrrr/main/deezer-song.json" },
-  { name: "Shazam", url: "https://raw.githubusercontent.com/wonytest0-dev/dzhmsk/main/data/jimin-deezer-shazam.json" },
-  { name: "Spotify Chart", url: "https://raw.githubusercontent.com/spotify-chart-hit/merge/refs/heads/main/final.json" },
-  { name: "Spotify Counter", url: "https://raw.githubusercontent.com/wonytest0-dev/PROJ1CONTR/main/counter.json" },
-  { name: "YouTube", url: "https://raw.githubusercontent.com/wonytest0-dev/YTJFMZZ/main/data/youtube-chart.json" },
-  { name: "Digital Artist", url: "https://raw.githubusercontent.com/wonpyu/attnnnm/main/digital-artists.json" }
+  { name: "🍎 Apple Music Daily", url: "https://raw.githubusercontent.com/wonytest0-dev/AMPRJFN/main/apple-music.json" },
+  { name: "⚡ Apple Music Realtime", url: "https://raw.githubusercontent.com/sstsss-sys/realtimeapp/main/apple-music-realtime.json" },
+  { name: "💿 Apple Music Albums", url: "https://raw.githubusercontent.com/sstsss-sys/albmmkaa/main/apple-music-albums-realtime.json" },
+  { name: "🎵 Deezer", url: "https://raw.githubusercontent.com/wonpyu/zzzzrrr/main/deezer-song.json" },
+  { name: "🎧 Shazam", url: "https://raw.githubusercontent.com/wonytest0-dev/dzhmsk/main/data/jimin-deezer-shazam.json" },
+  { name: "🟢 Spotify Chart", url: "https://raw.githubusercontent.com/spotify-chart-hit/merge/refs/heads/main/final.json" },
+  { name: "🔢 Spotify Counter", url: "https://raw.githubusercontent.com/wonytest0-dev/PROJ1CONTR/main/counter.json" },
+  { name: "▶️ YouTube", url: "https://raw.githubusercontent.com/wonytest0-dev/YTJFMZZ/main/data/youtube-chart.json" },
+  { name: "👑 Digital Artist", url: "https://raw.githubusercontent.com/wonpyu/attnnnm/main/digital-artists.json" }
 ];
 
 const HASH_FILE = "./hashes.json";
