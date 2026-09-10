@@ -8,7 +8,7 @@ const SOURCES = [
   { name: "💿 Apple Music Albums", url: "https://raw.githubusercontent.com/sstsss-sys/albmmkaa/main/apple-music-albums-realtime.json" },
   { name: "🎵 Deezer", url: "https://raw.githubusercontent.com/wonpyu/zzzzrrr/main/deezer-song.json" },
   { name: "🎧 Shazam", url: "https://raw.githubusercontent.com/wonytest0-dev/dzhmsk/main/data/jimin-deezer-shazam.json" },
-  { name: "🟢 Spotify Chart", url: "https://raw.githubusercontent.com/spotify-chart-hit/merge/refs/heads/main/final.json" },
+  { name: "🟢 Spotify Chart", url: "https://raw.githubusercontent.com/sstsss-sys/spotify-chart-hit/refs/heads/main/final.json" },
   { name: "🔢 Spotify Counter", url: "https://raw.githubusercontent.com/wonytest0-dev/PROJ1CONTR/main/counter.json" },
   { name: "▶️ YouTube", url: "https://raw.githubusercontent.com/wonytest0-dev/YTJFMZZ/main/data/youtube-chart.json" }
   
