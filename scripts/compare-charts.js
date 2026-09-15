@@ -10,7 +10,8 @@ const SOURCES = [
   { name: "🎧 Shazam", url: "https://raw.githubusercontent.com/wonytest0-dev/dzhmsk/main/data/jimin-deezer-shazam.json" },
   { name: "🟢 Spotify Chart", url: "https://raw.githubusercontent.com/sstsss-sys/spotify-chart-hit/refs/heads/main/final.json" },
   { name: "🔢 Spotify Counter", url: "https://raw.githubusercontent.com/wonytest0-dev/PROJ1CONTR/main/counter.json" },
-  { name: "▶️ YouTube", url: "https://raw.githubusercontent.com/wonytest0-dev/YTJFMZZ/main/data/youtube-chart.json" }
+  { name: "▶️ YouTube", url: "https://raw.githubusercontent.com/wonytest0-dev/YTJFMZZ/main/data/youtube-chart.json" },
+  { name: "🐥 Spotify History Chart", url: "https://raw.githubusercontent.com/wonytest0-dev/jimin-spotify-history/main/data/jimin-spotify-peaks.json" }
   
 ];
 
